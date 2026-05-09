@@ -19,5 +19,6 @@ Conventions and recipes for instructors and TAs maintaining a CAT-SOOP course ov
 | [staff-management/](staff-management/) | Adding, promoting, and removing course staff. |
 | [announcements/](announcements/) | Weekly announcement workflow with a scheduled auto-merge. |
 | [deploy/](deploy/) | Pushing courseware to the live catsoop server on merge to `main`. |
+| [office-hours.md](office-hours.md) | Running OH on the queue plugin: lock/unlock, claim semantics, time caps. |
 
 If your course also has a Canvas presence, see [../canvas/](../canvas/) for syncing `__USERS__/` from Canvas.

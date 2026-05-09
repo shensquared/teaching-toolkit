@@ -36,20 +36,10 @@ The Registrar schedules a [Conflict Exam](https://registrar.mit.edu/classes-grad
 
 - Sick students: do not attend class or in-person OH; route through your course-personal email alias for accommodation.
 - Personal issues affecting attendance / progress: students should see a Dean in [Student Support Services (S³)](https://studentlife.mit.edu/s3) first, then loop in the course via the course-personal alias.
-- Course staff should *not* handle these directly via personal email — funnel them.
+- Course staff should *not* handle these directly via personal email; funnel them.
 
 ## Mental health resources
 
 - [Student Support Services (S³)](https://studentlife.mit.edu/s3)
 - [MIT Medical: Student Mental Health and Counseling](https://medical.mit.edu/services/mental-health-counseling)
 - [MIT Peer Ears](https://peerears.mit.edu/)
-
-## Office hours / queue management
-
-Generalizable best practices for any course running OH on a queue:
-
-- **Lock / unlock queues** intentionally. Room-bound queues open during scheduled lab / recitation; OH queue opens during OH.
-- **20-minute soft cap** per student during OH. After that, ask them to rejoin the queue so others get a turn. Ignore the cap when the queue is light.
-- **Monitor across queues** if you have time — stragglers end up in the wrong place; redirect them.
-- **Unclaim vs. remove**: unclaim keeps the student's spot; remove sends them to the back. Use removal only when help is finished or the cap was hit.
-- **Announce absences** in the staff Slack as early as you can — it lets others reshape the help allocation.

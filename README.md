@@ -18,13 +18,13 @@ Walk me through creating a fine-grained GitHub personal access token so an AI ag
 
 ```
 LMS/
-  catsoop/             setup, porting, staff, announcements, deploy
+  catsoop/             setup, porting, staff, announcements, deploy, OH queue
   canvas/              API setup
   panopto.md           API setup; download lecture videos on a schedule
 MIT/
   EECS/                exam day, exam printing, Education Portal scripts
   registration/        class lists, cross-reg, instructor approval userscripts
-  exams.md             proctoring, accommodations, OH queue (cross-MIT)
+  exams.md             cross-MIT exam ops: proctoring, accommodations
   scaling-tips.md      public site models, Moira lists, Registrar Catalog
 ai-tips.md             AGENTS.md / NOTATION.md conventions; remote AI workflow
 local-llm/             running an LLM on your own machine; pair with opencode / Claude Code / etc.

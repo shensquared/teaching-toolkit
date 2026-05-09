@@ -15,4 +15,4 @@
 ## Tips
 
 - **[scaling-tips.md](scaling-tips.md)** — public site models, Moira lists, Registrar Catalog updates, more. Extracted from the [scalableTeaching](https://github.com/shensquared/scalableTeaching) site.
-- **[exams.md](exams.md)** — proctoring philosophy, conflicts, DAS accommodations, OH queue management.
+- **[exams.md](exams.md)** — proctoring philosophy, conflicts, DAS accommodations.
