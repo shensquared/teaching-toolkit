@@ -37,4 +37,4 @@ If you want to keep AI sessions running on your local machine but reach them fro
 1. **Use the CLI in tmux.** Sessions stay local, organized, and survive disconnects. Detach from a long-running task and reattach from any device.
 2. **Rely on a VPN.** Set up WireGuard (see [local-llm/wireguard/](local-llm/wireguard/)) so you can reach your machine without exposing services directly.
 3. **Set up SSH tunnels** for one-off port forwards (e.g., `ssh -L 11434:localhost:11434 user@host`) when you only need one service and don't want the full VPN up.
-4. **Find a good iOS client.** I use moshi; pick what handles flaky networks well for you.
+4. **Find a good iOS client.** I use [Moshi](https://getmoshi.app/); pick what handles flaky networks well for you.
