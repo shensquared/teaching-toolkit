@@ -6,7 +6,7 @@ Tips, scripts, and tool pointers for running a course.
 
 ## Using this in your own workflow
 
-Hand the link to this repo to an AI agent (or just use GitHub Copilot from the top-right menu when viewing the repo), describe what you want to do, and ask it to see whether anything here can be repurposed for your case. The folder READMEs are written for that conversation: enough context for an agent to recognize matches, light enough to skim.
+Point an AI agent at this repo (or open GitHub Copilot from the repo's top-right menu if you're viewing on github.com), describe what you want, and ask whether anything here can be repurposed. The folder READMEs and per-topic notes are written for that conversation: enough context for an agent to recognize matches, light enough to skim.
 
 > *This repo is currently private, so an AI agent reading it will need a GitHub personal access token. Describe what you want to your AI tool and it can walk you through generating one.*
 
@@ -15,11 +15,13 @@ Hand the link to this repo to an AI agent (or just use GitHub Copilot from the t
 ```
 LMS/
   catsoop/             setup, porting, staff, announcements, deploy
-  canvas/              API setup; sync catsoop __USERS__ from Canvas
-  panopto.md           download lecture videos on a schedule via the API
-MIT/                   MIT-specific tools and userscripts
+  canvas/              API setup
+  panopto.md           API setup; download lecture videos on a schedule
+MIT/
+  EECS/                exam day, exam printing, Education Portal scripts
+  registration/        class lists, cross-reg, instructor approval userscripts
+  exams.md             proctoring, accommodations, OH queue (cross-MIT)
+  scaling-tips.md      public site models, Moira lists, Registrar Catalog
 ai-tips.md             AGENTS.md / NOTATION.md conventions; remote AI workflow
-local-llm/             running an LLM on your own machine
+local-llm/             running an LLM on your own machine; pair with opencode / Claude Code / etc.
 ```
-
-Each folder has its own README.
