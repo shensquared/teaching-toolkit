@@ -26,7 +26,6 @@ Conventions for AI agents extending this toolkit. The repo is Shen Shen's teachi
 
 ## Commits
 
-- No `Co-Authored-By` trailers.
 - Brief one-line subject. Body explains *why* if it's not obvious from the diff.
 - Don't skip hooks (`--no-verify`) or bypass signing without explicit instruction.
 
