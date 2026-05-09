@@ -1,5 +1,7 @@
 # AI tips
 
+Background: a colleague-facing talk on this — [slides](https://slides.com/shensquared/colleage-dac-talk).
+
 ## Conventions
 
 Drop two files at the root of your repo:
