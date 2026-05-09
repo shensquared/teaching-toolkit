@@ -2,9 +2,9 @@
 
 ## Tools
 
-- **[Valve](https://shenshen.mit.edu/valve/)** — visual semester planner pre-configured with MIT Registrar key dates. Drag-and-drop midterms, manage lecture topics, save/load as JSON. Source: <https://github.com/shensquared/valve>.
-- **[Pie](https://shenshen.mit.edu/pie/)** — enrollment dashboard for student-body composition over time. Source: <https://github.com/shensquared/pie>. Covered in [registration/](registration/).
-- **[Exam countdown clock](https://shenshen.mit.edu/clock)** — front-of-room timer with parallel 1×, 1.5×, 2× clocks for extended-time accommodations. Source: <https://github.com/shensquared/countdown-clock>.
+- **[Valve](https://shenshen.mit.edu/valve/)** — visual semester planner pre-configured with MIT Registrar key dates. Drag-and-drop midterms, manage lecture topics, save/load as JSON. Source: [github.com/shensquared/valve](https://github.com/shensquared/valve).
+- **[Pie](https://shenshen.mit.edu/pie/)** — enrollment dashboard for student-body composition over time. Source: [github.com/shensquared/pie](https://github.com/shensquared/pie). Covered in [registration/](registration/).
+- **[Exam countdown clock](https://shenshen.mit.edu/clock)** — front-of-room timer with parallel 1×, 1.5×, 2× clocks for extended-time accommodations. Source: [github.com/shensquared/countdown-clock](https://github.com/shensquared/countdown-clock).
 
 ## Folders
 

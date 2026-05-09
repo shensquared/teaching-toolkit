@@ -20,7 +20,7 @@ docker run -d --name n8n -p 5678:5678 \
   n8nio/n8n
 ```
 
-Open <http://localhost:5678>. For sustained / shared use, run behind a reverse proxy with auth.
+Open [localhost:5678](http://localhost:5678). For sustained / shared use, run behind a reverse proxy with auth.
 
 ## Wiring in a local LLM
 

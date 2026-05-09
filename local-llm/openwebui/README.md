@@ -19,7 +19,7 @@ docker run -d --name open-webui -p 3000:3000 \
   ghcr.io/open-webui/open-webui:main
 ```
 
-Open <http://localhost:3000>; create an admin account on first visit. Subsequent signups can be set to require admin approval.
+Open [localhost:3000](http://localhost:3000); create an admin account on first visit. Subsequent signups can be set to require admin approval.
 
 ## RAG for course material
 

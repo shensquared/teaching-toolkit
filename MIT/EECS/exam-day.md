@@ -48,9 +48,9 @@ Each exam has a unique exam ID (batch # + serial #). Keep batches together end-t
   - 50 pages max — for batches of 20 exams, do 7-7-6.
   - Place pages with the top upside-down and front facing down.
   - Naming: `batch_<batch#>_<scan_index>.pdf`. Gradescope can split a multi-exam PDF.
-  - Driver download: <https://www.pfu.ricoh.com/global/scanners/scansnap/dl/>.
+  - [Driver download](https://www.pfu.ricoh.com/global/scanners/scansnap/dl/).
 - **Xerox D50** (newer, 1× duo, 120-page tray):
-  - Setup info: <https://www.xeroxscanners.com/en/product/xerox-d50-scanner/>.
+  - [Setup info](https://www.xeroxscanners.com/en/product/xerox-d50-scanner/).
   - In Setup, check both front and back (double-sided).
   - Output mode: **MPDF** for multi-page PDFs.
 

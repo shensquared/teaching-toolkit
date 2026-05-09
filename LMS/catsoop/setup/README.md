@@ -13,7 +13,7 @@ For TAs / instructors who want to preview or develop course content on their own
 ./run-local.sh       # start the local server
 ```
 
-Then open <http://localhost:6010> (or the port the server reports).
+Then open [localhost:6010](http://localhost:6010) (or the port the server reports).
 
 ## What you should see
 

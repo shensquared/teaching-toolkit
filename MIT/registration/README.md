@@ -4,7 +4,7 @@ MIT registration workflows and student-body data tools for your course.
 
 ## Visualizing enrollment
 
-**[Pie](https://shenshen.mit.edu/pie/)** — enrollment dashboard. Source: <https://github.com/shensquared/pie>. Pie ingests registrar class-list exports and renders interactive pie charts. The userscripts below *fetch* the data; Pie *visualizes* it.
+**[Pie](https://shenshen.mit.edu/pie/)** — enrollment dashboard. Source: [github.com/shensquared/pie](https://github.com/shensquared/pie). Pie ingests registrar class-list exports and renders interactive pie charts. The userscripts below *fetch* the data; Pie *visualizes* it.
 
 ## Userscripts
 
