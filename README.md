@@ -6,6 +6,8 @@ Runbooks, scripts, and tool pointers for running a course. **Work in progress** 
 
 Hand the link to this repo to an AI agent, describe what you want to do, and ask it to see whether anything here can be repurposed for your case. The folder READMEs are written for that conversation: enough context for an agent to recognize matches, light enough to skim.
 
+> *This repo is currently private, so an AI agent reading it will need a GitHub personal access token. Describe what you want to your AI tool and it can walk you through generating one.*
+
 ## What's inside
 
 ```
