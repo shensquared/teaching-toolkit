@@ -1,18 +1,18 @@
-# Working with AI on teaching tasks
+# Working with **AI** on teaching tasks
 
-A short list of tips that pay off across any AI tool (Claude, ChatGPT, Cursor, local models).
+A short list of tips that pay off across any **AI** tool (Claude, ChatGPT, Cursor, local models).
 
 ## 1. Bring your conventions
 
-Don't re-explain your style every session. Drop a `AGENTS.md` (and a `NOTATION.md` if your subject has notation) at the root of your repo and the AI will follow it. See [writing-conventions.md](writing-conventions.md).
+Don't re-explain your style every session. Drop a `AGENTS.md` (and a `NOTATION.md` if your subject has notation) at the root of your repo and the **AI** will follow it. See [writing-conventions.md](writing-conventions.md).
 
 ## 2. Ask for a plan before the work
 
-For any task bigger than a one-line edit, ask the AI to outline its approach first. You catch wrong-direction work before it happens, and the planning doc itself is reusable.
+For any task bigger than a one-line edit, ask the **AI** to outline its approach first. You catch wrong-direction work before it happens, and the planning doc itself is reusable.
 
 ## 3. Verify before publishing
 
-AI confidently hallucinates dates, citations, names, and APIs that don't exist. For anything going to students or into a course site, treat AI output as a first draft that needs the same eyeballing as a TA's submission.
+**AI** confidently hallucinates dates, citations, names, and APIs that don't exist. For anything going to students or into a course site, treat **AI** output as a first draft that needs the same eyeballing as a TA's submission.
 
 ## 4. Iterate; first drafts are rarely correct
 
@@ -30,9 +30,9 @@ Student work, draft exam problems, gradebooks. These don't belong in a third-par
 
 When a session produces a useful prompt, recipe, or convention, save it (in `AGENTS.md`, in this toolkit, in your own notes). Otherwise you'll re-derive it next semester.
 
-## Working with AI from anywhere
+## Working with **AI** from anywhere
 
-If you want to keep AI sessions running on your local machine but reach them from outside:
+If you want to keep **AI** sessions running on your local machine but reach them from outside:
 
 1. **Use the CLI in tmux.** Sessions stay local, organized, and survive disconnects. Detach from a long-running task and reattach from any device.
 2. **Rely on a VPN.** Set up WireGuard (see [local-llm/wireguard/](local-llm/wireguard/)) so you can reach your machine without exposing services directly.

@@ -9,3 +9,7 @@
 
 - **[registration/](registration/)** — class lists, cross-reg, instructor approval; userscripts for the registrar / student-forms portals.
 - **[EECS/eecseduportal/](EECS/eecseduportal/)** — userscripts for the EECS Education Portal (faculty / TA roster extraction).
+
+## Tips
+
+- **[scaling-tips.md](scaling-tips.md)** — public site models, Moira lists, Registrar Catalog updates, more. Extracted from the [scalableTeaching](https://github.com/shensquared/scalableTeaching) site.
