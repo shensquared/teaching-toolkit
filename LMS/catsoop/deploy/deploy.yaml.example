@@ -1,0 +1,45 @@
+# Example GitHub Actions workflow that deploys courseware to a running
+# CAT-SOOP server on every push to `main`.
+#
+# Save as .github/workflows/deploy.yaml in your course repo.
+# Adjust paths, host, and user to match your server.
+#
+# Required GitHub Secrets:
+#   DEPLOY_SSH_KEY    private key whose public half is in the server's authorized_keys
+#   DEPLOY_HOST       hostname or IP of the catsoop server
+#   DEPLOY_USER       SSH user on the catsoop server
+#   DEPLOY_PATH       absolute path to the course dir on the server
+
+name: Deploy courseware
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repo
+        uses: actions/checkout@v4
+
+      - name: Set up SSH
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.DEPLOY_SSH_KEY }}" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          ssh-keyscan -H "${{ secrets.DEPLOY_HOST }}" >> ~/.ssh/known_hosts
+
+      - name: Sync content to server
+        run: |
+          rsync -avz --delete \
+            --exclude '.git' \
+            --exclude '.github' \
+            ./ "${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }}:${{ secrets.DEPLOY_PATH }}/"
+
+      # TODO: add a step to clear the catsoop cache on the server, if needed.
+      # - name: Flush cache
+      #   run: |
+      #     ssh "${{ secrets.DEPLOY_USER }}@${{ secrets.DEPLOY_HOST }}" \
+      #       "rm -rf ${{ secrets.DEPLOY_PATH }}/__CACHE__"

@@ -1,0 +1,88 @@
+"""
+Sync CAT-SOOP __USERS__/ from a Canvas course's enrolled students.
+
+For each student enrolled in the Canvas course, ensures a
+__USERS__/<kerb>.py file exists with role = "Student".
+Existing files are not modified (so staff roles stay intact).
+
+Usage:
+    export CANVAS_BASE_URL="https://canvas.mit.edu"
+    export CANVAS_TOKEN="..."
+    python sync-canvas-to-catsoop.py
+
+Required environment:
+    CANVAS_BASE_URL   e.g., https://canvas.mit.edu
+    CANVAS_TOKEN      personal access token (see README)
+
+Edit the constants below for your course.
+"""
+
+import os
+import sys
+from pathlib import Path
+
+import requests  # pip install requests
+
+# TODO: fill these in for your course.
+COURSE_ID = 0                                              # numeric Canvas course ID
+USERS_DIR = Path("/path/to/course/__USERS__")              # absolute path
+
+CANVAS_BASE_URL = os.environ["CANVAS_BASE_URL"].rstrip("/")
+CANVAS_TOKEN = os.environ["CANVAS_TOKEN"]
+
+
+def fetch_students(course_id: int) -> list[dict]:
+    """Fetch all student enrollments, following Canvas pagination."""
+    url = f"{CANVAS_BASE_URL}/api/v1/courses/{course_id}/users"
+    params = {"enrollment_type[]": "student", "per_page": 100}
+    headers = {"Authorization": f"Bearer {CANVAS_TOKEN}"}
+
+    students = []
+    while url:
+        r = requests.get(url, params=params, headers=headers, timeout=30)
+        r.raise_for_status()
+        students.extend(r.json())
+        # Canvas paginates via the Link header; follow rel="next".
+        url = r.links.get("next", {}).get("url")
+        params = None  # next URL already includes them
+    return students
+
+
+def write_user_file(kerb: str) -> bool:
+    """Create __USERS__/<kerb>.py if it doesn't already exist. Returns True if created."""
+    target = USERS_DIR / f"{kerb}.py"
+    if target.exists():
+        return False
+    target.write_text('role = "Student"\n')
+    return True
+
+
+def main() -> int:
+    if not USERS_DIR.is_dir():
+        print(f"USERS_DIR does not exist: {USERS_DIR}", file=sys.stderr)
+        return 1
+
+    students = fetch_students(COURSE_ID)
+    canvas_kerbs = {s["login_id"] for s in students if s.get("login_id")}
+
+    created = []
+    for kerb in sorted(canvas_kerbs):
+        if write_user_file(kerb):
+            created.append(kerb)
+
+    existing_kerbs = {p.stem for p in USERS_DIR.glob("*.py")}
+    possibly_dropped = sorted(existing_kerbs - canvas_kerbs)
+
+    print(f"Canvas students:    {len(canvas_kerbs)}")
+    print(f"Created new files:  {len(created)}")
+    if created:
+        for k in created:
+            print(f"  + {k}")
+    print(f"In CAT-SOOP, not in Canvas (possibly dropped or staff): {len(possibly_dropped)}")
+    for k in possibly_dropped:
+        print(f"  ? {k}")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())
