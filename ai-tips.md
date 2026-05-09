@@ -2,6 +2,10 @@
 
 Background: my AI-as-TA talk to the MIT Engineering Council, [slides](https://slides.com/shensquared/engineering-council-talk-d85522).
 
+## Dictate prompts
+
+Speech-to-text (macOS dictation, Whisper, SuperWhisper) is faster than typing for most of the workflows below. Talk through what you want; the agent reads the transcript the same way it would read a typed prompt.
+
 ## Conventions
 
 Drop two files at the root of your repo:
