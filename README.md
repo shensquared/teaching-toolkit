@@ -16,6 +16,7 @@ Hand the link to this repo to an AI agent (or just use GitHub Copilot from the t
 LMS/
   catsoop/             setup, porting, staff, announcements, deploy
   canvas/              API setup; sync catsoop __USERS__ from Canvas
+  panopto.md           download lecture videos on a schedule via the API
 MIT/                   MIT-specific tools and userscripts
 ai-tips.md             AGENTS.md / NOTATION.md conventions; remote AI workflow
 local-llm/             running an LLM on your own machine

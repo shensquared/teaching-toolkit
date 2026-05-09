@@ -13,4 +13,3 @@
 ## Tips
 
 - **[scaling-tips.md](scaling-tips.md)** — public site models, Moira lists, Registrar Catalog updates, more. Extracted from the [scalableTeaching](https://github.com/shensquared/scalableTeaching) site.
-- **[panopto.md](panopto.md)** — downloading lecture videos on a schedule via the Panopto API; useful for AI-assisted delivery coaching.
