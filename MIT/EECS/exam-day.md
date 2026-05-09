@@ -4,6 +4,8 @@ Operational notes for in-person exams in MIT EECS course rooms. General proctori
 
 ## Printing exams (38-445)
 
+For 100+ student exams, use the [batched printing workflow](exam-printing/) — it stamps each copy with a unique batch + serial number that makes scanning and reconciliation tractable. Manual one-at-a-time setup below is for small print jobs or one-off documents.
+
 ### macOS
 
 1. Open the PDF in Preview (not Adobe — Adobe can mess up the stapling).
