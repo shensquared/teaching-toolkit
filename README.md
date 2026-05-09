@@ -1,12 +1,12 @@
 # teaching-toolkit
 
-Tips, scripts, and tool pointers for running a course.
+Tips, scripts, and tool pointers for running a course. Written for both human readers and AI agents.
 
 **Work in progress**: organizing as I find time and as colleagues ask about specific workflows. Feel free to raise an issue.
 
 ## Using this in your own workflow
 
-Point an AI agent at this repo (or open GitHub Copilot from the repo's top-right menu if you're viewing on github.com), describe what you want, and ask whether anything here can be repurposed. The folder READMEs and per-topic notes are written for that conversation: enough context for an agent to recognize matches, light enough to skim.
+Point an AI agent at this repo (or open GitHub Copilot from the repo's top-right menu if you're viewing on github.com), describe what you want, and ask whether anything here can be repurposed. The folder READMEs and per-topic notes carry enough context for an agent to recognize matches, light enough to skim.
 
 > *This repo is currently private, so an AI agent reading it will need a GitHub personal access token. Describe what you want to your AI tool and it can walk you through generating one.*
 
