@@ -1,0 +1,31 @@
+# Working with AI on teaching tasks
+
+A short list of tips that pay off across any AI tool (Claude, ChatGPT, Cursor, local models).
+
+## 1. Bring your conventions
+
+Don't re-explain your style every session. Drop a `AGENTS.md` (and a `NOTATION.md` if your subject has notation) at the root of your repo and the AI will follow it. See [writing-conventions.md](writing-conventions.md).
+
+## 2. Ask for a plan before the work
+
+For any task bigger than a one-line edit, ask the AI to outline its approach first. You catch wrong-direction work before it happens, and the planning doc itself is reusable.
+
+## 3. Verify before publishing
+
+AI confidently hallucinates dates, citations, names, and APIs that don't exist. For anything going to students or into a course site, treat AI output as a first draft that needs the same eyeballing as a TA's submission.
+
+## 4. Iterate; first drafts are rarely correct
+
+The right move is usually "this is close, but X is off — fix that and only that," not accepting whatever came back. Tight feedback loops beat long prompts.
+
+## 5. Read code before running it
+
+Especially for scripts that touch your course content, server, or anything with state. Even a one-line `rm` or a `git push --force` slipped into a longer block can ruin your day.
+
+## 6. Route sensitive work to a local model
+
+Student work, draft exam problems, gradebooks — these don't belong in a third-party API. See [local-llm/](local-llm/) for setup.
+
+## 7. Save what worked
+
+When a session produces a useful prompt, recipe, or convention, save it (in `AGENTS.md`, in this toolkit, in your own notes). Otherwise you'll re-derive it next semester.

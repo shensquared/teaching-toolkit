@@ -14,6 +14,7 @@ LMS/
   canvas/              API setup; sync catsoop __USERS__ from Canvas
 MIT/                   MIT-specific tools and userscripts
 writing-conventions.md AGENTS.md / NOTATION.md for AI-assisted authoring
+ai-tips.md             general tips for working with AI on teaching tasks
 local-llm/             running an LLM on your own machine
 ```
 
