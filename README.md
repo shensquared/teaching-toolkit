@@ -2,9 +2,13 @@
 
 Runbooks, scripts, and tool pointers for running a course.
 
-- **[LMS/catsoop/](LMS/catsoop/)** — setup, porting, staff, announcements, deploy.
-- **[LMS/canvas/](LMS/canvas/)** — API setup; syncing catsoop `__USERS__/` from Canvas.
-- **[MIT/](MIT/)** — MIT-specific tools and userscripts.
-- **[writing-conventions/](writing-conventions/)** — using `AGENTS.md` / `NOTATION.md` to let AI handle material formatting.
+```
+LMS/
+  catsoop/             setup, porting, staff, announcements, deploy
+  canvas/              API setup; sync catsoop __USERS__ from Canvas
+MIT/                   MIT-specific tools and userscripts
+writing-conventions/   AGENTS.md / NOTATION.md for AI-assisted authoring
+local-llm/             running an LLM on your own machine
+```
 
 Each folder has its own README.
