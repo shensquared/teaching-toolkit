@@ -8,7 +8,11 @@ Tips, scripts, and tool pointers for running a course. Written for both human re
 
 Point an AI agent at this repo (or open GitHub Copilot from the repo's top-right menu if you're viewing on github.com), describe what you want, and ask whether anything here can be repurposed. The folder READMEs and per-topic notes carry enough context for an agent to recognize matches, light enough to skim.
 
-> *This repo is currently private, so an AI agent reading it will need a GitHub personal access token. Describe what you want to your AI tool and it can walk you through generating one.*
+*This repo is currently private. An AI agent reading it needs a GitHub personal access token; paste the prompt below into your AI tool and follow along:*
+
+```
+Walk me through creating a fine-grained GitHub personal access token so an AI agent can read this private repo: https://github.com/shensquared/teaching-toolkit. Scope it to just that repo with read-only Contents + Metadata.
+```
 
 ## What's inside
 
