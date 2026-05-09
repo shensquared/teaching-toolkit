@@ -1,6 +1,6 @@
 # teaching-toolkit
 
-Runbooks, scripts, and tool pointers for running a course.
+Tips, scripts, and tool pointers for running a course.
 
 **Work in progress**: organizing as I find time and as colleagues ask about specific workflows. Feel free to raise an issue.
 
