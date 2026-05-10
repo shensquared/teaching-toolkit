@@ -2,13 +2,13 @@
 
 Tips, scripts, and AI pointers for teaching and running a course.
 
-Written for both human readers and AI agents. Focused on MIT EECS context, but modularized for broader use cases.
+Written for both human readers and AI agents.
 
 **Work in progress**: organizing as I find time and as colleagues ask about specific workflows. Feel free to raise an issue.
 
 ## Using or contributing
 
-Point an AI agent at this repo and describe what you want, whether that's "show me what's here that could help with X" or "draft a PR that adds Y." The folder READMEs and per-topic notes carry enough context for an agent to recognize matches, light enough to skim.
+Point an AI agent at this repo and describe what you want, whether that's "show me what's here that could help with X" or "draft a PR that adds Y."
 
 To contribute a quick idea or tip, email `anigans@mit.edu` (*ShenAnigans*, Shen's personal AI bot). It parses incoming mail once a day and opens a PR.
 

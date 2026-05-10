@@ -1,7 +1,5 @@
 # Deploying courseware to the live CAT-SOOP server
 
-Pattern for auto-pushing your course repo to the running server on every `main` update.
-
 ## How it works
 
 1. PR merges into `main` (manually or via [announcements scheduled merge](../announcements/)).

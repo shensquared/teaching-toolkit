@@ -1,9 +1,9 @@
 // ==UserScript==
-// @name         MIT Instructor Approval Auto-Fill
+// @name         Cross-Registration Batch Consult
 // @namespace    http://tampermonkey.net/
 // @version      1.0
-// @description  Auto-fill instructor approval form for MIT cross-registration requests
-// @author       You
+// @description  Auto-fill the MIT instructor consult form for cross-registration requests
+// @author       shensquared
 // @match        https://studentformsandpetitions.mit.edu/adddrop/approver/xreg/instructorApproval.htm*
 // @grant        none
 // ==/UserScript==
@@ -11,7 +11,7 @@
 (function() {
     'use strict';
     
-    console.log('MIT Instructor Approval Auto-Fill script loaded');
+    console.log('Cross-Registration Batch Consult script loaded');
     
     // Wait for the page to fully load
     function waitForElement(selector, callback, maxWaitTime = 10000) {

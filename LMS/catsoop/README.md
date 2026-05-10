@@ -1,7 +1,5 @@
 # Running a CAT-SOOP course
 
-Conventions and recipes for instructors and TAs maintaining a CAT-SOOP course over multiple semesters.
-
 ## Recommended setup
 
 1. **Version-control your courseware** in a git repo. Multi-staff collaboration, history, audit trail.

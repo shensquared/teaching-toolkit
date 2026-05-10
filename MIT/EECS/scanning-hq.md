@@ -1,7 +1,5 @@
 # Scanning at EECS HQ
 
-For exams sent through the EECS HQ shared scanners.
-
 ## Setup
 
 The scanners can send to either a **WebDAV cloud** or an **email address**, set per entry in the scanner's address book. Either path lands the file somewhere you can rename and upload to Gradescope from.

@@ -1,7 +1,5 @@
 # Setting up CAT-SOOP locally
 
-For TAs / instructors who want to preview or develop course content on their own machine.
-
 ## Prerequisites
 
 <!-- TODO: Python version, OS notes, system packages. -->

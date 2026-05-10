@@ -1,7 +1,5 @@
 # Running an LLM locally
 
-For instructors who want AI assistance without sending course material or student data to a third-party API.
-
 ## Why local
 
 - **Privacy**: student work, exams, planning notes stay on your machine.

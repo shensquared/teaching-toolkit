@@ -1,7 +1,5 @@
 # Porting a CAT-SOOP course to a new semester
 
-For migrating an existing course from one term to the next.
-
 ## When to port
 
 <!-- TODO: when in the term cycle, who owns it. -->

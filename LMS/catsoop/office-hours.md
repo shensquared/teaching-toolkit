@@ -1,6 +1,6 @@
 # Office hours / queue management
 
-Operational patterns for running OH on the CAT-SOOP queue plugin. Catsoop-specific in vocabulary (lock, claim, unclaim, remove), but the philosophy generalizes.
+Running OH on the CAT-SOOP queue plugin.
 
 - **Lock / unlock queues** intentionally. Room-bound queues open during scheduled lab / recitation; OH queue opens during OH.
 - **20-minute soft cap** per student during OH. After that, ask them to rejoin the queue so others get a turn. Ignore the cap when the queue is light.

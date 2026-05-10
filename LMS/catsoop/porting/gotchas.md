@@ -6,7 +6,7 @@
 
 ## Forgotten plugin renames
 
-End-of-term plugins (post-semester grade displays, archived-content banners) need to be disabled at the start of the new term. The `post_load.py` ↔ `disabled_post_load.py` rename is easy to forget.
+End-of-term plugins (e.g., archived-content banners) need to be disabled at the start of the new term. The `post_load.py` ↔ `disabled_post_load.py` rename is easy to forget.
 
 ## Asset paths
 

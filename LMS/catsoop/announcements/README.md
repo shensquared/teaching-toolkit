@@ -1,7 +1,5 @@
 # Weekly announcements workflow
 
-A pattern for managing weekly announcements via a long-lived `announcements` branch + scheduled GitHub Action.
-
 ## Why a separate branch
 
 Drafts and review without touching the live site; auto-publish on a fixed weekly schedule.

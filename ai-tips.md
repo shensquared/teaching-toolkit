@@ -30,7 +30,6 @@ Examples:
 
 For tasks you repeat across the semester, define a slash command (or skill, depending on your tool) so the prompt + context-loading is one keystroke. Examples worth having:
 
-- `/grade-<qN>`: load the rubric and a few hand-graded examples, then grade a batch.
 - `/draft-pset`: open the problem template, point at the topic, get a first draft.
 - `/exam-feedback`: collect TA debrief notes into a structured form after each exam.
 
@@ -44,11 +43,10 @@ Same idea on the GitHub-access side (teams, bot tokens, `gh` CLI): see [`MIT/sca
 
 ## Team AI tooling
 
-<!-- Placeholder -->
+*Patterns I use but haven't written up yet:*
 
-<!-- TODO: shared knowledge base (Outline.shenshen.mit.edu) for team-readable docs that AI agents can also search. -->
-
-<!-- TODO: the anigans bot triage sys. -->
+- Shared knowledge base (Outline at `outline.shenshen.mit.edu`) for team-readable docs that AI agents can also search.
+- The anigans bot triage system.
 
 ## Subagents for parallel exploration
 

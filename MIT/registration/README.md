@@ -13,8 +13,7 @@ Tampermonkey scripts that automate friction in the MIT registration portals:
 | Script | Page | What it does |
 |--------|------|--------------|
 | [`classlist-download.user.js`](userscripts/classlist-download.user.js) | `student.mit.edu` | Auto-selects term + subject and triggers ClassList Download. |
-| [`cross-registration-batch.user.js`](userscripts/cross-registration-batch.user.js) | `studentformsandpetitions.mit.edu` | Batch-processes pending cross-reg approvals. |
-| [`instructor-approval-autofill.user.js`](userscripts/instructor-approval-autofill.user.js) | `studentformsandpetitions.mit.edu` | Auto-fills the permission-of-instructor form. |
+| [`cross-registration-batch-consult.user.js`](userscripts/cross-registration-batch-consult.user.js) | `studentformsandpetitions.mit.edu` | Auto-fills the instructor consult form for cross-registration requests. |
 
 **Hardcoded values**: the class-list script ships with `2026FA` and `6.3900`; edit those constants for your course before installing.
 
