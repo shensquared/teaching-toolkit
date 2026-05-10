@@ -2,6 +2,10 @@
 
 Background: my AI-as-TA talk to the MIT Engineering Council, [slides](https://slides.com/shensquared/engineering-council-talk-d85522).
 
+## Version-control everything
+
+Commit every artifact AI helps you build (code, prompts, drafts, slide source, problem sets, slash commands, skill definitions) to git where possible. Lets you bisect when output quality regresses, see what's AI-generated vs. hand-edited, and feed full history back as context next time.
+
 ## Conventions
 
 Drop two files at the root of your repo:
