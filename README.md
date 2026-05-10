@@ -24,7 +24,7 @@ LMS/
   canvas/              API setup
   panopto.md           API setup; download lecture videos on a schedule
 MIT/
-  EECS/                exam day, exam printing, Education Portal scripts
+  EECS/                exam day, exam printing, HQ scanning, Education Portal scripts
   registration/        class lists, cross-reg, instructor approval userscripts
   exams.md             cross-MIT exam ops: proctoring, accommodations
   recording.md         how lectures get captured at MIT (Open Learning, large classrooms, LWLC)

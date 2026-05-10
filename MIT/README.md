@@ -11,6 +11,7 @@
 - **[registration/](registration/)**: class lists, cross-reg, instructor approval; userscripts for the registrar / student-forms portals.
 - **[EECS/eecseduportal/](EECS/eecseduportal/)**: userscripts for the EECS Education Portal (faculty / TA roster extraction).
 - **[EECS/exam-day.md](EECS/exam-day.md)**: printing in 38-445, proctoring flow, scanning in the Jackson room.
+- **[EECS/scanning-hq.md](EECS/scanning-hq.md)**: EECS HQ big copy-room scanners + WebDAV pipeline (separate from the small-scanner flow in `exam-day.md`).
 
 ## Tips
 
