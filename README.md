@@ -21,7 +21,7 @@ If you're not sure where a doc belongs, open the PR anyway and we'll move it if 
 ```
 LMS/
   catsoop/             setup, porting, staff, announcements, deploy, OH queue
-  canvas/              API setup
+  canvas/              API setup; user sync; registration data
   panopto.md           API setup; download lecture videos on a schedule
 MIT/
   EECS/                exam day, exam printing, HQ scanning, Education Portal scripts

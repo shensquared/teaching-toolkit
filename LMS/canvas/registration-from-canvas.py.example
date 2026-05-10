@@ -1,0 +1,84 @@
+"""
+Pull registration data (headcount + section breakdown) from a Canvas course.
+
+Canvas exposes section assignments for each enrolled student but NOT
+year or major. For year / major data, use the Registrar's class list
+(see ../../MIT/registration/).
+
+Author: shensquared
+
+Usage:
+    export CANVAS_BASE_URL="https://canvas.mit.edu"
+    export CANVAS_TOKEN="..."
+    python registration-from-canvas.py
+
+Required environment:
+    CANVAS_BASE_URL   e.g., https://canvas.mit.edu
+    CANVAS_TOKEN      personal access token (see README)
+
+Edit the constant below for your course.
+"""
+
+import os
+import sys
+from collections import Counter
+
+import requests  # pip install requests
+
+# TODO: fill this in for your course.
+COURSE_ID = 0    # numeric Canvas course ID
+
+CANVAS_BASE_URL = os.environ["CANVAS_BASE_URL"].rstrip("/")
+CANVAS_TOKEN = os.environ["CANVAS_TOKEN"]
+
+
+def paginated(url: str, params: dict | None = None) -> list[dict]:
+    """Follow Canvas's Link-header pagination until exhausted."""
+    headers = {"Authorization": f"Bearer {CANVAS_TOKEN}"}
+    out: list[dict] = []
+    while url:
+        r = requests.get(url, params=params, headers=headers, timeout=30)
+        r.raise_for_status()
+        out.extend(r.json())
+        url = r.links.get("next", {}).get("url")
+        params = None  # next URL already includes them
+    return out
+
+
+def fetch_sections(course_id: int) -> dict[int, str]:
+    """Map course_section_id -> section name."""
+    sections = paginated(f"{CANVAS_BASE_URL}/api/v1/courses/{course_id}/sections")
+    return {s["id"]: s["name"] for s in sections}
+
+
+def fetch_student_enrollments(course_id: int) -> list[dict]:
+    return paginated(
+        f"{CANVAS_BASE_URL}/api/v1/courses/{course_id}/enrollments",
+        {"type[]": "StudentEnrollment", "per_page": 100},
+    )
+
+
+def main() -> int:
+    sections = fetch_sections(COURSE_ID)
+    enrollments = fetch_student_enrollments(COURSE_ID)
+
+    # A student can be in multiple sections (lecture + lab + recitation),
+    # so enrollment count != unique student count.
+    by_section: Counter[str] = Counter()
+    unique_users: set[int] = set()
+    for e in enrollments:
+        unique_users.add(e["user_id"])
+        section_name = sections.get(e["course_section_id"], "(unknown)")
+        by_section[section_name] += 1
+
+    print(f"Total unique students: {len(unique_users)}")
+    print(f"Total enrollments:     {len(enrollments)}")
+    print()
+    print("By section:")
+    for name, count in sorted(by_section.items(), key=lambda kv: -kv[1]):
+        print(f"  {count:4d}  {name}")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

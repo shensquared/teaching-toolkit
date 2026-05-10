@@ -56,3 +56,9 @@ Workflow:
 Starter: [`sync-canvas-to-catsoop.py.example`](sync-canvas-to-catsoop.py.example). Copy in, edit `COURSE_ID` and `USERS_DIR`, run.
 
 **Cadence**: once after registration closes, weekly during add/drop, once mid-term for late drops.
+
+## 3. Registration data from Canvas
+
+The Canvas roster gives you total headcount and **section assignments** (which lab / recitation a student is in). Starter script: [`registration-from-canvas.py.example`](registration-from-canvas.py.example) prints total students plus a per-section breakdown.
+
+Canvas does **not** expose **year** or **major**. For class-composition data (year, major breakdowns), pull the Registrar's class list instead: see [`../../MIT/registration/`](../../MIT/registration/).
