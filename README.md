@@ -34,5 +34,10 @@ MIT/
   recording.md         how lectures get captured at MIT (Open Learning, large classrooms, LWLC)
   scaling-tips.md      public site models, Moira lists, Registrar Catalog
 ai-tips.md             AGENTS.md / NOTATION.md conventions; remote AI workflow
-local-llm/             running an LLM on your own machine; pair with opencode / Claude Code / etc.
+local-llm/
+  ollama/              easiest way to run a model locally; OpenAI-compatible API
+  mlx/                 Apple Silicon-optimized; faster than Ollama on M-series
+  openwebui/           ChatGPT-style web UI; multi-user; RAG over uploads
+  n8n/                 workflow automation; batched / scheduled LLM jobs
+  wireguard/           VPN for remote access to local services
 ```
