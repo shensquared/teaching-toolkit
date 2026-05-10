@@ -62,8 +62,8 @@ The main context stays clean and you finish in one pass instead of three.
 Closes the loop with [LMS/panopto.md](LMS/panopto.md):
 
 1. Pull last year's recording for the lecture you're about to give.
-2. Transcribe (Whisper or similar), local-llm-friendly.
-3. Hand the transcript + this year's slides to an AI and ask: *what landed, what didn't, what to revisit, where did I rush*.
+2. Grab Panopto's auto-generated captions (available about an hour after the recording is posted). Fall back to a local Whisper model only if captions aren't ready.
+3. Hand the captions + this year's slides to an AI and ask: *what landed, what didn't, what to revisit, where did I rush*.
 4. Use the answers to retune the slide order or add a recap slide.
 
 Private feedback before you walk into the room.

@@ -1,6 +1,6 @@
 # Downloading Panopto videos on a schedule
 
-The Panopto API lets you pull your own lecture videos out of MIT's hosted instance, on a schedule. Useful for backups, transcript generation, and **AI-assisted delivery coaching**: run an LLM over the audio / transcript to flag pacing, filler words, off-topic tangents. See [`../ai-tips.md`](../ai-tips.md#lecture-prep-loop) for how this fits into the lecture-prep loop.
+The Panopto API lets you pull your own lecture videos and their auto-generated captions out of MIT's hosted instance, on a schedule. Captions are available about an hour after a recording is posted; fall back to a local Whisper model only if captions aren't ready. Useful for backups and **AI-assisted delivery coaching**: feed the captions to an LLM to flag pacing, filler words, off-topic tangents. See [`../ai-tips.md`](../ai-tips.md#lecture-prep-loop) for how this fits into the lecture-prep loop.
 
 ## Generate API credentials
 
