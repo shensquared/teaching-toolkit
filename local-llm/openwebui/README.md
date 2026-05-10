@@ -4,10 +4,10 @@
 
 ## Why use it
 
-- **Familiar UI** for anyone who has used ChatGPT — easier than the CLI for less-technical TAs / colleagues.
-- **Multi-user with auth** — share one instance with course staff; each user gets their own history.
-- **RAG built-in** — upload PDFs, lecture notes, past exams; ask questions across the corpus and get answers with citations from your uploads.
-- **Pluggable backends** — works with Ollama, MLX-LM, or any OpenAI-compatible endpoint.
+- **Familiar UI** for anyone who has used ChatGPT: easier than the CLI for less-technical TAs / colleagues.
+- **Multi-user with auth**: share one instance with course staff; each user gets their own history.
+- **RAG built-in**: upload PDFs, lecture notes, past exams; ask questions across the corpus and get answers with citations from your uploads.
+- **Pluggable backends**: works with Ollama, MLX-LM, or any OpenAI-compatible endpoint.
 
 ## Setup
 

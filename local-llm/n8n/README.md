@@ -4,9 +4,9 @@
 
 ## When to reach for it
 
-- **Batched processing** — run a prompt across N inputs (student feedback, draft problems).
-- **Scheduled jobs** — daily / weekly summaries, reminders.
-- **Multi-step pipelines** — fetch from a sheet → transform → call LLM → write back.
+- **Batched processing**: run a prompt across N inputs (student feedback, draft problems).
+- **Scheduled jobs**: daily / weekly summaries, reminders.
+- **Multi-step pipelines**: fetch from a sheet → transform → call LLM → write back.
 
 ## Setup
 
@@ -29,4 +29,4 @@ n8n's HTTP / OpenAI nodes take a base URL:
 - Ollama: `http://host.docker.internal:11434/v1` (macOS / Windows) or `http://172.17.0.1:11434/v1` (Linux).
 - MLX-LM: same idea, port 8080.
 
-API key can be any non-empty string — local servers don't validate.
+API key can be any non-empty string; local servers don't validate.

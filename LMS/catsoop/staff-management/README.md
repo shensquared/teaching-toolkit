@@ -18,10 +18,10 @@ Forgetting either side:
 
 In `__USERS__/<kerb>.py`:
 
-- `"Instructor"` — full admin
-- `"TA"` — teaching assistant
-- `"LA"` — learning assistant
-- `"Student"` — student
+- `"Instructor"`: full admin
+- `"TA"`: teaching assistant
+- `"LA"`: learning assistant
+- `"Student"`: student
 
 Your course may add others.
 

@@ -17,7 +17,7 @@ Pattern for auto-pushing your course repo to the running server on every `main` 
 
 ## Files
 
-- [deploy.yaml.example](deploy.yaml.example) — drop into `.github/workflows/` and adjust.
+- [deploy.yaml.example](deploy.yaml.example): drop into `.github/workflows/` and adjust.
 
 ## Cache invalidation
 

@@ -19,7 +19,7 @@ No open PR when the schedule fires → no-op.
 
 - `announcements` branch (long-lived; do not delete after merge).
 - Branch protection on `announcements`.
-- Scheduled Action — see [scheduled-merge.yaml.example](scheduled-merge.yaml.example).
+- Scheduled Action: see [scheduled-merge.yaml.example](scheduled-merge.yaml.example).
 - Site-deploy workflow on `main` (covered separately).
 
 ## Weekly runbook

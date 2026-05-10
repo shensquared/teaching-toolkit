@@ -8,7 +8,7 @@ You need: a Canvas account at your institution, instructor/designer access to th
 
 ### Get a token
 
-**Account → Settings → + New Access Token**. Copy it immediately — Canvas shows it once.
+**Account → Settings → + New Access Token**. Copy it immediately; Canvas shows it once.
 
 For shared / production use, ask your Canvas admin for a developer key instead.
 
@@ -51,7 +51,7 @@ Workflow:
 1. `GET /api/v1/courses/<COURSE_ID>/users?enrollment_type[]=student` (paginated).
 2. Extract each user's `login_id` (the kerb at MIT).
 3. Create `__USERS__/<kerb>.py` with `role = "Student"`. Skip files that already exist (could be staff).
-4. Report kerbs in `__USERS__/` but not Canvas — likely drops.
+4. Report kerbs in `__USERS__/` but not Canvas (likely drops).
 
 Starter: [`sync-canvas-to-catsoop.py.example`](sync-canvas-to-catsoop.py.example). Copy in, edit `COURSE_ID` and `USERS_DIR`, run.
 

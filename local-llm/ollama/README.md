@@ -37,7 +37,7 @@ To let other devices on your LAN hit Ollama, bind to `0.0.0.0`:
 OLLAMA_HOST=0.0.0.0:11434 ollama serve
 ```
 
-**Only on a trusted network** — Ollama has no auth. For remote access, expose it via [`../wireguard/`](../wireguard/) instead of port-forwarding.
+**Only on a trusted network**: Ollama has no auth. For remote access, expose it via [`../wireguard/`](../wireguard/) instead of port-forwarding.
 
 ## Telemetry
 

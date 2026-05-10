@@ -4,7 +4,7 @@ A two-script workflow that generates personalized exam PDFs from a LaTeX templat
 
 ## Why batches
 
-Printed exams have a unique ID consisting of `batch # + serial #`, stamped in the header and on the cover. With 20 exams per batch, proctors group physical copies by batch number at handout, scanners scan one batch at a time, and Gradescope uploads stay one-batch-per-upload. Lose a single exam and you can identify *which* batch, *which* serial — find it.
+Printed exams have a unique ID consisting of `batch # + serial #`, stamped in the header and on the cover. With 20 exams per batch, proctors group physical copies by batch number at handout, scanners scan one batch at a time, and Gradescope uploads stay one-batch-per-upload. Lose a single exam and you can identify *which* batch, *which* serial, and find it.
 
 Without batching, you have 400 anonymous identical-looking PDFs and no way to reconcile counts.
 

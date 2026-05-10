@@ -8,12 +8,12 @@ For migrating an existing course from one term to the next.
 
 ## What changes
 
-1. **Semester identifiers** — year string, term stage, key dates.
-2. **Staff** — clear out students, add new TAs/LAs, update the staff display.
-3. **Plugins** — disable end-of-term, enable pre-semester.
-4. **Assets** — replace term-specific media.
-5. **Announcements** — clear stale weeks; refresh pre-semester message.
-6. **External links** — Piazza, schedule sheet, feedback forms.
+1. **Semester identifiers**: year string, term stage, key dates.
+2. **Staff**: clear out students, add new TAs/LAs, update the staff display.
+3. **Plugins**: disable end-of-term, enable pre-semester.
+4. **Assets**: replace term-specific media.
+5. **Announcements**: clear stale weeks; refresh pre-semester message.
+6. **External links**: Piazza, schedule sheet, feedback forms.
 
 ## Quick start
 

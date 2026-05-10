@@ -36,7 +36,7 @@ Same as TA, but `role = "LA"` and `_las` instead of `_tas`.
 
 Clear prior-term students from `__USERS__/`. Staff stay until they actually leave.
 
-To populate `__USERS__/` for the new term from your Canvas roster, see [`../../canvas/`](../../canvas/) — the sync script creates one `<kerb>.py` per enrolled student and flags anyone in `__USERS__/` no longer in Canvas (likely drops or staff).
+To populate `__USERS__/` for the new term from your Canvas roster, see [`../../canvas/`](../../canvas/); the sync script creates one `<kerb>.py` per enrolled student and flags anyone in `__USERS__/` no longer in Canvas (likely drops or staff).
 
 ```bash
 # See current __USERS__/ contents with role:

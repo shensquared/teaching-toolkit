@@ -7,8 +7,8 @@ Conventions and recipes for instructors and TAs maintaining a CAT-SOOP course ov
 1. **Version-control your courseware** in a git repo. Multi-staff collaboration, history, audit trail.
 2. **Host on GitHub** specifically: Actions, branch protection, and PRs are familiar to TAs. GitLab CI / Gitea Actions also work.
 3. **Use GitHub Actions for two recurring jobs**:
-   - Deploy to the live server on merge to `main` — see [deploy/](deploy/).
-   - Auto-merge the weekly announcements PR on schedule — see [announcements/](announcements/).
+   - Deploy to the live server on merge to `main`; see [deploy/](deploy/).
+   - Auto-merge the weekly announcements PR on schedule; see [announcements/](announcements/).
 
 ## Folders
 

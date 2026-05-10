@@ -23,8 +23,8 @@ Generic checklist; adapt to your course's files and conventions.
 
 Two locations must both be updated:
 
-- [ ] **Access** (`__USERS__/<kerb>.py`) — clear prior-term students, keep instructors/staff, add new TAs/LAs.
-- [ ] **Display** (e.g., `info/staff/preload.py`) — update instructor / TA / LA lists.
+- [ ] **Access** (`__USERS__/<kerb>.py`): clear prior-term students, keep instructors/staff, add new TAs/LAs.
+- [ ] **Display** (e.g., `info/staff/preload.py`): update instructor / TA / LA lists.
 - [ ] Add staff photos under `__STATIC__/staffpics/<kerb>.png`.
 
 ### Plugins

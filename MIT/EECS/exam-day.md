@@ -4,11 +4,11 @@ Operational notes for in-person exams in MIT EECS course rooms. General proctori
 
 ## Printing exams (38-445)
 
-For 100+ student exams, use the [batched printing workflow](exam-printing/) — it stamps each copy with a unique batch + serial number that makes scanning and reconciliation tractable. Manual one-at-a-time setup below is for small print jobs or one-off documents.
+For 100+ student exams, use the [batched printing workflow](exam-printing/); it stamps each copy with a unique batch + serial number that makes scanning and reconciliation tractable. Manual one-at-a-time setup below is for small print jobs or one-off documents.
 
 ### macOS
 
-1. Open the PDF in Preview (not Adobe — Adobe can mess up the stapling).
+1. Open the PDF in Preview (not Adobe; Adobe can mess up the stapling).
 2. Cmd-P to print.
 3. **Printer → Add Printer**. Choose **IP**.
 4. IP: `18.25.15.38` or `18.25.15.39` (also printed on the printer itself).
@@ -28,13 +28,13 @@ For 100+ student exams, use the [batched printing workflow](exam-printing/) — 
 - **Pick up exams**: 34-501, 30 minutes before exam start (sharp).
 - **Distribute by batch**: lay exams out at the table by batch number. Students pick up themselves; proctors don't hand out individually.
 - **Cover-page reminder**: announce "please read the cover-page preamble" at the start.
-- **Display the [extended-time clock](https://shenshen.mit.edu/clock/)** on the projector — has parallel 1×, 1.5×, 2× tracks.
+- **Display the [extended-time clock](https://shenshen.mit.edu/clock/)** on the projector; it has parallel 1×, 1.5×, 2× tracks.
 - **Recurring questions** → post in the Slack exam channel so other rooms get the same clarification.
 - **Collection**: at least one staff member guards the collection table at all times. Sort by batch (20 exams per batch, typical). Bring everything to the Jackson room (38-466) for scanning.
 
 ## Scanning (Jackson room, 38-466)
 
-Each exam has a unique exam ID (batch # + serial #). Keep batches together end-to-end: same scanners, same upload, same Gradescope group. **Don't upload incomplete batches** — easy way to lose exams.
+Each exam has a unique exam ID (batch # + serial #). Keep batches together end-to-end: same scanners, same upload, same Gradescope group. **Don't upload incomplete batches**: easy way to lose exams.
 
 ### Roles, in pairs of 2
 
@@ -45,7 +45,7 @@ Each exam has a unique exam ID (batch # + serial #). Keep batches together end-t
 
 - **ScanSnap iX1600** (older, 2× of these for midterms):
   - USB-A, bring an adapter if your laptop is USB-C.
-  - 50 pages max — for batches of 20 exams, do 7-7-6.
+  - 50 pages max; for batches of 20 exams, do 7-7-6.
   - Place pages with the top upside-down and front facing down.
   - Naming: `batch_<batch#>_<scan_index>.pdf`. Gradescope can split a multi-exam PDF.
   - [Driver download](https://www.pfu.ricoh.com/global/scanners/scansnap/dl/).
@@ -68,4 +68,4 @@ After uploading, sanity-check Gradescope submission counts against the "Final" c
 
 ## Safety
 
-The cutter station has a **very old first aid kit**. Don't cut yourself — injuries have happened. Vary cut angles slowly, don't rush.
+The cutter station has a **very old first aid kit**. Don't cut yourself; injuries have happened. Vary cut angles slowly, don't rush.

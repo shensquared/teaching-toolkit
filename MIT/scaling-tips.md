@@ -10,10 +10,10 @@ Mimic separation of powers: one person (or a small group) sets policy; a differe
 
 A publicly-accessible course site (even just logistics + FAQs) reduces pre-semester emails and doubles as onboarding material for new staff. Site models, in roughly decreasing complexity:
 
-- **All-in-one** — info, courseware, grades on one self-hosted site (e.g., CAT-SOOP).
-- **Hybrid I** — public info + courseware site, Canvas for grades / private modules.
-- **Hybrid II** — separate sites for info and courseware, other tech for the rest.
-- **Canvas-only with public module** — make a single FAQ module public, keep the rest gated.
+- **All-in-one**: info, courseware, grades on one self-hosted site (e.g., CAT-SOOP).
+- **Hybrid I**: public info + courseware site, Canvas for grades / private modules.
+- **Hybrid II**: separate sites for info and courseware, other tech for the rest.
+- **Canvas-only with public module**: make a single FAQ module public, keep the rest gated.
 
 ## Update the Registrar Course Catalog
 
@@ -41,10 +41,10 @@ The Registrar releases a pictured roster PDF. Canvas exposes student photos via 
 
 ## Useful tools
 
-- **[Enrollment Pie](https://shenshen.mit.edu/pie/)** — visualize enrollment composition. (Also covered in [registration/](registration/).)
-- **[On-demand OH booking](https://cal.shenshen.mit.edu/)** — complements fixed OH hours; offers shared "seats."
-- **[Course Calendar Template](https://shenshen.mit.edu/git/shensquared/teachingcalendar)** — pulls Registrar key dates, cross-checked against the official `.ics`.
-- **[w2m](https://w2m.shenshen.mit.edu/)** — private When2Meet alternative.
-- **[ML Courses Tree](https://shenshen.mit.edu/tree/)** — for advising students on which ML courses to pick.
+- **[Enrollment Pie](https://shenshen.mit.edu/pie/)**: visualize enrollment composition. (Also covered in [registration/](registration/).)
+- **[On-demand OH booking](https://cal.shenshen.mit.edu/)**: complements fixed OH hours; offers shared "seats."
+- **[Course Calendar Template](https://shenshen.mit.edu/git/shensquared/teachingcalendar)**: pulls Registrar key dates, cross-checked against the official `.ics`.
+- **[w2m](https://w2m.shenshen.mit.edu/)**: private When2Meet alternative.
+- **[ML Courses Tree](https://shenshen.mit.edu/tree/)**: for advising students on which ML courses to pick.
 
 <!-- TODO: integrate notes from the `outline` VM (e.g., EECS printing and scanning). -->

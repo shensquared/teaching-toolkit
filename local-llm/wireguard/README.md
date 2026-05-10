@@ -1,14 +1,14 @@
 # WireGuard VPN for accessing local services
 
-When you self-host an LLM (or anything else) on your home / office network, you'll want to reach it from elsewhere — laptop on a plane, friend's house. WireGuard is the most boring, fastest modern VPN.
+When you self-host an LLM (or anything else) on your home / office network, you'll want to reach it from elsewhere (laptop on a plane, friend's house). WireGuard is the most boring, fastest modern VPN.
 
 The technique applies to **any local service**, not just an LLM.
 
 ## Where to run the WireGuard server
 
-- **Your router** — OpenWRT, OPNsense, and most prosumer routers support WireGuard natively. Lowest overhead.
-- **A box on your LAN** — a Raspberry Pi or always-on Mac running `wg-quick`. Needs a port forward on your router.
-- **A cloud VPS** — for when you don't have a static IP at home and don't want to deal with dynamic DNS.
+- **Your router**: OpenWRT, OPNsense, and most prosumer routers support WireGuard natively. Lowest overhead.
+- **A box on your LAN**: a Raspberry Pi or always-on Mac running `wg-quick`. Needs a port forward on your router.
+- **A cloud VPS**: for when you don't have a static IP at home and don't want to deal with dynamic DNS.
 
 ## Server side (OpenWRT example)
 
@@ -46,7 +46,7 @@ Tunnel up: point your editor / agent at `http://<lan-ip>:11434/v1` (Ollama) or `
 ## Firewall best practices
 
 - **Default deny on the WAN**. Only the WireGuard UDP port should be reachable from outside.
-- **Don't port-forward Ollama / MLX-LM directly**. They have no auth — port-forwarding exposes them to the world.
+- **Don't port-forward Ollama / MLX-LM directly**. They have no auth, so port-forwarding exposes them to the world.
 - **`AllowedIPs` per peer**. Set it to your subnet (e.g., `10.0.0.0/24`), not `0.0.0.0/0`, unless you actually want to route all traffic through home.
 - **Per-peer keys, not shared**. Each client gets its own keypair. Rotating one doesn't affect others.
 - **Preshared keys (`PresharedKey =`)** for quantum-resistant defense in depth. Optional, cheap to add.

@@ -37,7 +37,7 @@ Wrap in a cron or `launchd` job. Track which sessions you've already downloaded 
 
 Working setup in `~/code/course-admin-scripts/` (private):
 
-- `panopto_auth.py` — OAuth2 flow + refresh token persistence.
-- `panopto.py` — folder / session search, download URL fetch, file save.
+- `panopto_auth.py`: OAuth2 flow + refresh token persistence.
+- `panopto.py`: folder / session search, download URL fetch, file save.
 
 <!-- TODO: sanitize and check in a starter script here. -->
