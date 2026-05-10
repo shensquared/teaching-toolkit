@@ -5,7 +5,9 @@ For exams sent through the EECS HQ shared scanners, with scans landing on a self
 ## Setup
 
 - **WebDAV destination**: `https://cloud.shenshen.mit.edu/remote.php/dav/files/EECSHQ`. The scanner address book entry is `Shen Shen (WebDav)`.
-- [Demo video](https://youtube.com/shorts/69NIUE1nArk).
+- Demo video:
+
+  [![Demo video thumbnail](https://img.youtube.com/vi/69NIUE1nArk/hqdefault.jpg)](https://youtube.com/shorts/69NIUE1nArk)
 
 ## Supplies
 
