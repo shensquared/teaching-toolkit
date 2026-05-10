@@ -8,7 +8,7 @@ Written for both human readers and AI agents. Focused on MIT EECS context, but m
 
 ## Using or contributing
 
-Point an AI agent at this repo (or open GitHub Copilot from the repo's top-right menu if you're viewing on github.com) and describe what you want, whether that's "show me what's here that could help with X" or "draft a PR that adds Y." The folder READMEs and per-topic notes carry enough context for an agent to recognize matches, light enough to skim.
+Point an AI agent at this repo and describe what you want, whether that's "show me what's here that could help with X" or "draft a PR that adds Y." The folder READMEs and per-topic notes carry enough context for an agent to recognize matches, light enough to skim.
 
 Alternatively, email quick ideas or tips to `anigans@mit.edu` (*ShenAnigans*, Shen's personal AI bot). It parses incoming mail once a day and opens a PR.
 
