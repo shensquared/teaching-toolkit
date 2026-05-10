@@ -14,6 +14,8 @@ Point an AI agent at this repo (or open GitHub Copilot from the repo's top-right
 Walk me through creating a fine-grained GitHub personal access token so an AI agent can read this private repo: https://github.com/shensquared/teaching-toolkit. Scope it to just that repo with read-only Contents + Metadata.
 ```
 
+For quick tips that don't justify a full PR, email `anigans@mit.edu` (as in *ShenAnigans*, Shen's personal AI bot). It parses incoming mail once a day and opens a PR when warranted.
+
 If you're not sure where a doc belongs, open the PR anyway and we'll move it if needed.
 
 ## What's inside
