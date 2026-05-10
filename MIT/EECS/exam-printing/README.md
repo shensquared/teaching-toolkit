@@ -1,6 +1,6 @@
 # Batched exam printing
 
-A two-script workflow that generates personalized exam PDFs from a LaTeX template (each stamped with a unique batch + serial number) and prints them to two EECS network printers in parallel. The batch / serial stamping is what makes [scanning](../exam-day.md#scanning-jackson-room-38-466) and Gradescope upload tractable later.
+A two-script workflow that generates personalized exam PDFs from a LaTeX template (each stamped with a unique batch + serial number) and prints them to two EECS network printers in parallel. The batch / serial stamping is what makes [scanning](../scanning-hq.md) and Gradescope upload tractable later.
 
 ## Why batches
 
