@@ -21,6 +21,7 @@ LMS/
   catsoop/             setup, porting, staff, announcements, deploy, OH queue
   canvas/              API setup
   panopto.md           API setup; download lecture videos on a schedule
+  recording.md         how lectures get captured at MIT (Open Learning, large classrooms, LWLC)
 MIT/
   EECS/                exam day, exam printing, Education Portal scripts
   registration/        class lists, cross-reg, instructor approval userscripts
