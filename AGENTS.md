@@ -16,6 +16,7 @@ Conventions for AI agents extending this toolkit. The repo is Shen Shen's teachi
 - Flatten single-README folders into top-level `.md` files when no scripts or supporting files are likely to follow.
 - Each top-level folder gets its own `README.md` describing scope, contents, and any cross-links.
 - Keep cross-links between related sections. Don't duplicate content.
+- Keep the trees in sync. When you add, move, or rename a doc, update the top-level `README.md` tree and the relevant folder-level `README.md`. Taglines should reflect the file's actual contents.
 
 ## Extracting from external sources
 
