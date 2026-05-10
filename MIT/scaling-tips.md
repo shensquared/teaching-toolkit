@@ -6,6 +6,16 @@ Highlights extracted from the [scalableTeaching](https://github.com/shensquared/
 
 Mimic separation of powers: one person (or a small group) sets policy; a different group executes. Reduces decision fatigue for executors and keeps rulings consistent.
 
+## Team management tools
+
+Tooling that pays off as the staff grows beyond a handful:
+
+- **GitHub teams for tiered access.** Create separate teams (e.g., `instructors`, `tas`, `las`) and grant repo / branch-protection rules per team. Easier than per-user permissions and survives staff turnover.
+- **Bot account + token for automation.** Use a dedicated service account (or fine-grained PAT) for CI, scheduled jobs, and sync scripts. If a person leaves or rotates keys, automation doesn't break.
+- **`gh` CLI for everyday repo work.** Faster than the web UI for batch ops: `gh pr create`, `gh issue list`, `gh api ...`. Scriptable; pairs well with the bot token above.
+
+For the AI-context analogue (committing `AGENTS.md` / skills / slash commands so agent behavior stays consistent across staff), see [`../ai-tips.md` > Share context across the team](../ai-tips.md#share-context-across-the-team).
+
 ## Public-facing site cuts inquiry volume
 
 A publicly-accessible course site (even just logistics + FAQs) reduces pre-semester emails and doubles as onboarding material for new staff. Site models, in roughly decreasing complexity:

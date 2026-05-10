@@ -32,6 +32,20 @@ For tasks you repeat across the semester, define a slash command (or skill, depe
 
 Keep the command definitions in the course repo so the whole staff inherits them.
 
+## Share context across the team
+
+Whatever you tune (CLAUDE.md, AGENTS.md, NOTATION.md, slash commands, skill definitions), commit it to the course repo, not to personal dotfiles. New TAs / LAs onboarding mid-semester inherit the same agent behavior, so outputs stay consistent across the team. Otherwise one TA's well-tuned setup and another's defaults produce visibly different work.
+
+Same idea on the GitHub-access side (teams, bot tokens, `gh` CLI): see [`MIT/scaling-tips.md` > Team management tools](MIT/scaling-tips.md#team-management-tools).
+
+## Team AI tooling
+
+<!-- Placeholder -->
+
+<!-- TODO: shared knowledge base (Outline.shenshen.mit.edu) for team-readable docs that AI agents can also search. -->
+
+<!-- TODO: the anigans bot triage sys. -->
+
 ## Subagents for parallel exploration
 
 When the task spans the whole course site (porting a folder, auditing all problem files, scanning every lecture's recitation block), fan out to subagents instead of letting one agent burn through context sequentially. Two patterns:
