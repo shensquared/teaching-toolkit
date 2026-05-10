@@ -21,11 +21,11 @@ LMS/
   catsoop/             setup, porting, staff, announcements, deploy, OH queue
   canvas/              API setup
   panopto.md           API setup; download lecture videos on a schedule
-  recording.md         how lectures get captured at MIT (Open Learning, large classrooms, LWLC)
 MIT/
   EECS/                exam day, exam printing, Education Portal scripts
   registration/        class lists, cross-reg, instructor approval userscripts
   exams.md             cross-MIT exam ops: proctoring, accommodations
+  recording.md         how lectures get captured at MIT (Open Learning, large classrooms, LWLC)
   scaling-tips.md      public site models, Moira lists, Registrar Catalog
 ai-tips.md             AGENTS.md / NOTATION.md conventions; remote AI workflow
 local-llm/             running an LLM on your own machine; pair with opencode / Claude Code / etc.

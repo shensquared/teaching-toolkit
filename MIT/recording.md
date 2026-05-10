@@ -1,6 +1,6 @@
 # Recording lectures at MIT
 
-How lectures get captured and where they land. After recording, [panopto.md](panopto.md) covers pulling videos out via the Panopto API.
+How lectures get captured and where they land. After recording, [../LMS/panopto.md](../LMS/panopto.md) covers pulling videos out via the Panopto API.
 
 Three options, roughly in order of human touch needed:
 

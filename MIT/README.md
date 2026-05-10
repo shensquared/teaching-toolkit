@@ -16,3 +16,4 @@
 
 - **[scaling-tips.md](scaling-tips.md)** — public site models, Moira lists, Registrar Catalog updates, more. Extracted from the [scalableTeaching](https://github.com/shensquared/scalableTeaching) site.
 - **[exams.md](exams.md)** — proctoring philosophy, conflicts, DAS accommodations.
+- **[recording.md](recording.md)** — three options for getting your lectures captured: Open Learning, large classrooms, IS&T's Lightweight Lecture Capture.
