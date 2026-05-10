@@ -1,18 +1,15 @@
 # Scanning at EECS HQ
 
-For exams sent through the **big copy-room scanners** in the EECS HQ suite, with scans landing on a self-hosted WebDAV cloud. For the small portable ScanSnap / Xerox D50 setup, see [exam-day.md](exam-day.md#scanning-jackson-room-38-466).
+For exams sent through the EECS HQ shared scanners, with scans landing on a self-hosted WebDAV cloud.
 
-## Location
+## Setup
 
-- **Jackson room** (scanning station): 38-466, 4th floor of Building 38, in the EECS HQ suite (between Grier and the UG/Grad office).
-- **Portable scanner storage**: 34-501, right side, on a black cart, farther from the elevators. Backup portable on the 7th floor of Building 45.
 - **WebDAV destination**: `https://cloud.shenshen.mit.edu/remote.php/dav/files/EECSHQ`. The scanner address book entry is `Shen Shen (WebDav)`.
 - [Demo video](https://youtube.com/shorts/69NIUE1nArk).
 
 ## Supplies
 
-- Scissors for cutting stapled corners (and a cardboard box of them in the Jackson room).
-- 6 portable scanners on the Jackson-room table (backup while the big copy-room scanners are in use).
+- Scissors for cutting stapled corners.
 - USB adapters: check availability before exam day.
 
 ## Workflow
@@ -26,6 +23,5 @@ For exams sent through the **big copy-room scanners** in the EECS HQ suite, with
 
 ## Coordination
 
-- If multiple classes are scanning simultaneously, share the Jackson-room table space.
-- The big copy-room scanners may be reserved by other classes; check availability ahead of time.
-- Jackson room key must be checked out **before 5pm** on exam day.
+- Shared scanners may be reserved by other classes; check availability ahead of time.
+- If multiple classes are scanning simultaneously, coordinate space.
