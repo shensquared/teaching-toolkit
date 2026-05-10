@@ -1,6 +1,8 @@
 # teaching-toolkit
 
-Tips, scripts, and tool pointers for running a course. Written for both human readers and AI agents.
+Tips, scripts, and AI pointers for teaching and running a course.
+
+Written for both human readers and AI agents. Focused on MIT EECS context, but modularized for broader use cases.
 
 **Work in progress**: organizing as I find time and as colleagues ask about specific workflows. Feel free to raise an issue.
 
