@@ -2,7 +2,7 @@
 
 Tips, scripts, and AI pointers for teaching and running a course.
 
-Written for both human readers and AI agents.
+Written for both human readers and AI agents. MIT EECS-flavored; modular for broader use.
 
 **Work in progress**: organizing as I find time and as colleagues ask about specific workflows. Feel free to raise an issue.
 
@@ -28,7 +28,7 @@ LMS/
   canvas/              API setup; user sync; registration data
   panopto.md           API setup; download lecture videos on a schedule
 MIT/
-  EECS/                exam day, exam printing, HQ scanning, Education Portal scripts
+  EECS/                exam day, exam printing, HQ scanning, room reservations, Education Portal scripts
   registration/        class lists, cross-reg, instructor approval userscripts
   exams.md             cross-MIT exam ops: proctoring, accommodations
   recording.md         how lectures get captured at MIT (Open Learning, large classrooms, LWLC)

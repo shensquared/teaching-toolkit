@@ -23,3 +23,7 @@ The portal lists Faculty and TA Staff per class but offers no built-in way to co
 
 - **`extract-faculty-ta-rosters.user.js`**: adds the buttons above on a class's portal page.
 - **`la-grader-roster.user.js`**: adds Download Names / Download Kerbs buttons (plus an accepted-student count) on the LA / Grader page.
+
+## Hiring
+
+TA, LA, and Grader hiring runs through Eduportal: instructors mark TA preferences and class staff send LA / Grader offers at [`/eduportal/lects/#my-assigned-classes`](https://eecseduportal.mit.edu/eduportal/lects/#my-assigned-classes). TA assignments are coordinated by the EECS Education Office; LA / Grader offers are class-side.

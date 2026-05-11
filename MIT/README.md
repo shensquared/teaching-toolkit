@@ -12,6 +12,7 @@
 - **[EECS/eecseduportal/](EECS/eecseduportal/)**: userscripts for the EECS Education Portal (faculty / TA roster extraction).
 - **[EECS/exam-day.md](EECS/exam-day.md)**: printing in 38-445 and proctoring flow.
 - **[EECS/scanning-hq.md](EECS/scanning-hq.md)**: EECS HQ shared scanners + WebDAV pipeline.
+- **[EECS/rooms.md](EECS/rooms.md)**: five paths for reserving rooms (Registrar, EECS Calendar, lab owners, Lisa Bella, Atlas).
 
 ## Tips
 
