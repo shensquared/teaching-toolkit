@@ -36,7 +36,7 @@ MIT/
 ai-tips.md             AGENTS.md / NOTATION.md conventions; remote AI workflow
 local-llm/
   ollama/              easiest way to run a model locally; OpenAI-compatible API
-  mlx/                 Apple Silicon-optimized; faster than Ollama on M-series
+  apple-silicon/       MLX-based serving (mlx-lm, oMLX); faster than Ollama on M-series
   openwebui/           ChatGPT-style web UI; multi-user; RAG over uploads
   n8n/                 workflow automation; batched / scheduled LLM jobs
   wireguard/           VPN for remote access to local services
