@@ -18,5 +18,6 @@
 | [announcements/](announcements/) | Weekly announcement workflow with a scheduled auto-merge. |
 | [deploy/](deploy/) | Pushing courseware to the live catsoop server on merge to `main`. |
 | [office-hours.md](office-hours.md) | Running OH on the queue plugin: lock/unlock, claim semantics, time caps. |
+| [extensions.md](extensions.md) | Extensions page + Slack extension bot (placeholder). |
 
 If your course also has a Canvas presence, see [../canvas/](../canvas/) for syncing `__USERS__/` from Canvas.
