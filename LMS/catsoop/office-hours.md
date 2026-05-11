@@ -3,6 +3,7 @@
 Running OH on the CAT-SOOP queue plugin.
 
 - **Lock / unlock queues** intentionally. Room-bound queues open during scheduled lab / recitation; OH queue opens during OH.
+- **Time gated lock/unlock** I have a script for this. Needs cleaning up. Ask me if interested. 
 - **20-minute soft cap** per student during OH. After that, ask them to rejoin the queue so others get a turn. Ignore the cap when the queue is light.
 - **Monitor across queues** if you have time. Stragglers end up in the wrong place; redirect them.
 - **Unclaim vs. remove**: unclaim keeps the student's spot; remove sends them to the back. Use removal only when help is finished or the cap was hit.
