@@ -57,6 +57,14 @@ When the task spans the whole course site (porting a folder, auditing all proble
 
 The main context stays clean and you finish in one pass instead of three.
 
+## Course data
+
+Course data (rosters, OH queue logs, exam scores, lecture feedback, pset submissions, gradebook exports) is the highest-signal thing you have. It's most useful when it's already clean and follows consistent patterns: column names that match across files, kerbs as the primary key, date formats that don't drift.
+
+If keeping data tidy feels like overhead, AI can help with the organization. Paste a messy CSV or log dump and ask it to normalize: "merge these three roster snapshots on kerb, flag rows that appear in only one," "extract themes from the free-text feedback column," etc. Models handle messy formats well enough to skip the hour in Excel that usually kills the analysis.
+
+For identifiable data (kerbs, names, grade-linked records), route through a local LLM. See [local-llm/](local-llm/) for setup.
+
 ## Lecture prep loop
 
 Closes the loop with [LMS/panopto.md](LMS/panopto.md):
