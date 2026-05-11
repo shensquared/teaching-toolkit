@@ -45,7 +45,7 @@ Same idea on the GitHub-access side (teams, bot tokens, `gh` CLI): see [`MIT/sca
 
 *Patterns I use but haven't written up yet:*
 
-- Shared knowledge base (Outline at `outline.shenshen.mit.edu`) for team-readable docs that AI agents can also search.
+- Shared knowledge base (e.g., Outline) for team-readable docs that AI agents can also search.
 - The anigans bot triage system.
 
 ## Subagents for parallel exploration

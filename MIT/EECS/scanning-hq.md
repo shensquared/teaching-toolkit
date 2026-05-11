@@ -4,14 +4,6 @@
 
 The scanners can send to either a **WebDAV cloud** or an **email address**, set per entry in the scanner's address book. Either path lands the file somewhere you can rename and upload to Gradescope from.
 
-<details>
-<summary>If you're teaching with Shen, use the WebDAV below.</summary>
-
-- **WebDAV destination**: `https://cloud.shenshen.mit.edu/remote.php/dav/files/EECSHQ`. The scanner address book entry is `Shen Shen (WebDav)`.
-- **Verification share**: [cloud.shenshen.mit.edu](https://cloud.shenshen.mit.edu/s/xsxjnHCSCqL6E2D).
-
-</details>
-
 Demo video:
 
 [![Demo video thumbnail](https://img.youtube.com/vi/69NIUE1nArk/hqdefault.jpg)](https://youtube.com/shorts/69NIUE1nArk)
