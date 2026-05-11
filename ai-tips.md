@@ -1,6 +1,8 @@
 # AI tips
 
-Background: my AI-as-TA talk to the MIT Engineering Council, [slides](https://slides.com/shensquared/engineering-council-talk-d85522).
+## Example use cases
+
+See my AI-as-TA talk to the MIT Engineering Council, [slides](https://slides.com/shensquared/engineering-council-talk-d85522).
 
 ## Version-control everything
 
