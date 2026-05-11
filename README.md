@@ -1,10 +1,10 @@
-# teaching-toolkit
+# Teaching Toolkit
 
 Tips, scripts, and AI pointers for teaching and running a course.
 
 Written for both human readers and AI agents. MIT EECS-flavored; modular for broader use.
 
-**Work in progress**: organizing as I find time and as colleagues ask about specific workflows. Feel free to raise an issue.
+**Work in progress**: organizing as I find time and as colleagues ask about specific workflows. Want a topic covered? Raise an issue.
 
 ## Using or contributing
 
