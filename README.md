@@ -20,12 +20,6 @@ To contribute a quick idea or tip, email `anigans@mit.edu` (*ShenAnigans*, Shen'
 
 If you're not sure where a doc belongs, open the PR anyway and we'll move it if needed.
 
-*This repo is currently private. An AI agent reading it needs a GitHub personal access token; paste the prompt below into your AI tool and follow along:*
-
-```
-Walk me through creating a fine-grained GitHub personal access token so an AI agent can read this private repo: https://github.com/shensquared/teaching-toolkit. Scope it to just that repo with read-only Contents + Metadata.
-```
-
 ## What's inside
 
 ```
