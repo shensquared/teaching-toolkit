@@ -23,7 +23,9 @@ Examples:
 
 ## Remote AI workflow
 
-1. **CLI + tmux.** Sessions stay local, organized, and survive disconnects.
+1. **CLI + tmux.** Sessions stay local, organized, and survive disconnects. One named session per project; reattach from any device over mosh. Much faster to navigate than tabs in a terminal app, and much faster than using the official app.
+
+   ![tmux session picker over mosh](images/tmux-mosh-sessions.png)
 2. **VPN.** See [local-llm/wireguard/](local-llm/wireguard/).
 3. **SSH tunnels** for one-off port forwards: `ssh -L 11434:localhost:11434 user@host`.
 4. **iOS client + dictation.** I use [Moshi](https://getmoshi.app/); pair with iOS dictation (or a Whisper-based keyboard) so you can talk through prompts instead of thumb-typing on the go.
