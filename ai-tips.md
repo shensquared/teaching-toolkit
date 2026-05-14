@@ -2,7 +2,9 @@
 
 ## Example use cases
 
-See my AI-as-TA talk to the MIT Engineering Council, [slides](https://slides.com/shensquared/engineering-council-talk-d85522).
+My AI-as-TA talk to the MIT Engineering Council:
+
+[![AI as TA, Engineering Council talk title slide](images/slides-engineering-council.png)](https://slides.com/shensquared/engineering-council-talk-d85522)
 
 ## Version-control everything
 
@@ -68,6 +70,12 @@ Course data (rosters, OH queue logs, exam scores, lecture feedback, pset submiss
 If keeping data tidy feels like overhead, AI can help with the organization. Paste a messy CSV or log dump and ask it to normalize: "merge these three roster snapshots on kerb, flag rows that appear in only one," "extract themes from the free-text feedback column," etc. Models handle messy formats well enough to skip the hour in Excel that usually kills the analysis.
 
 For identifiable data (kerbs, names, grade-linked records), route through a local LLM. See [local-llm/](local-llm/) for setup.
+
+## Recurring tasks into a wiki
+
+Anything you do more than once a semester (LA onboarding, exam build steps, recitation prep, OH coverage swaps), have AI capture as you go and write it back to a team wiki. The artifact compounds: the next person pulls from the same doc, and AI agents can search it the next time around too.
+
+![6.390 wiki organized by recurring topic](images/wiki-recurring-tasks.png)
 
 ## Lecture prep loop
 
