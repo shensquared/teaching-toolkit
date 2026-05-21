@@ -41,6 +41,8 @@ For tasks you repeat across the semester, define a slash command (or skill, depe
 
 Keep the command definitions in the course repo so the whole staff inherits them.
 
+You don't have to design the catalog up front. An agent (see [Hermes](local-llm/hermes.md)) can watch your transcripts and propose new skills automatically when it notices you repeating the same prompt shape, so the library grows from real usage instead of guesswork.
+
 ## Share context across the team
 
 Whatever you tune (CLAUDE.md, AGENTS.md, NOTATION.md, slash commands, skill definitions), commit it to the course repo, not to personal dotfiles. New TAs / LAs onboarding mid-semester inherit the same agent behavior, so outputs stay consistent across the team. Otherwise one TA's well-tuned setup and another's defaults produce visibly different work.
@@ -69,7 +71,7 @@ Course data (rosters, OH queue logs, exam scores, lecture feedback, pset submiss
 
 If keeping data tidy feels like overhead, AI can help with the organization. Paste a messy CSV or log dump and ask it to normalize: "merge these three roster snapshots on kerb, flag rows that appear in only one," "extract themes from the free-text feedback column," etc. Models handle messy formats well enough to skip the hour in Excel that usually kills the analysis.
 
-For identifiable data (kerbs, names, grade-linked records), route through a local LLM. See [local-llm/](local-llm/) for setup.
+For identifiable data (kerbs, names, grade-linked records), route through a local LLM. See [local-llm/](local-llm/) for setup, and [local-llm/hermes.md](local-llm/hermes.md) for a privacy-safe course-data assistant built on top of it.
 
 ## Recurring tasks into a wiki
 
