@@ -40,4 +40,5 @@ local-llm/
   openwebui/           ChatGPT-style web UI; multi-user; RAG over uploads
   n8n/                 workflow automation; batched / scheduled LLM jobs
   wireguard/           VPN for remote access to local services
+  hermes.md            course-data assistant on top of the local stack; dedicated-host guidance
 ```
