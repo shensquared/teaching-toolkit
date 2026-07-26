@@ -24,3 +24,4 @@ Alternatives, in roughly decreasing order of recommendation:
 - **[openwebui/](openwebui/)**: ChatGPT-style web UI; multi-user, with built-in RAG over uploaded documents.
 - **[n8n/](n8n/)**: workflow automation; chain local LLM calls into batched / scheduled jobs.
 - **[wireguard/](wireguard/)**: VPN setup so you can reach your local LLM (or any local service) from elsewhere.
+- **[hermes.md](hermes.md)**: when a course-data assistant is worth the extra wrapper, and when direct agents plus scripts are enough.
