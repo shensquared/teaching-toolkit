@@ -25,7 +25,7 @@ Examples:
 
 ## Remote AI workflow
 
-1. **CLI + tmux.** Sessions stay local, organized, and survive disconnects. One named session per project; reattach from any device over mosh. Much faster to navigate than tabs in a terminal app, and much faster than using the official app.
+1. **CLI + tmux.** Sessions stay local, organized, and survive disconnects. One named session per project; reattach from any device over mosh. Much faster to navigate than tabs in a terminal app, and much faster than using the official app. If `tmux` never quite clicks for you, [`herdr`](https://github.com/herdr/herdr) is a very nice alternative for the same role, and its built-in AI status is a pretty killer feature that `tmux` doesn't natively have.
 
    ![tmux session picker over mosh](images/tmux-mosh-sessions.png)
 2. **VPN.** See [local-llm/wireguard/](local-llm/wireguard/).
