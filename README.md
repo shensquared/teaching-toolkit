@@ -30,6 +30,7 @@ LMS/
 MIT/
   EECS/                exam day, exam printing, HQ scanning, room reservations, Education Portal scripts
   registration/        class lists, cross-reg, instructor approval userscripts
+  room-availability/   which classrooms are free when, from the Fireroad course API
   exams.md             cross-MIT exam ops: proctoring, accommodations
   recording.md         how lectures get captured at MIT (Open Learning, large classrooms, LWLC)
   scaling-tips.md      public site models, Moira lists, Registrar Catalog

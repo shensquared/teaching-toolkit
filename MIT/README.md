@@ -9,6 +9,7 @@
 ## Folders
 
 - **[registration/](registration/)**: class lists, cross-reg, instructor approval; userscripts for the registrar / student-forms portals.
+- **[room-availability/](room-availability/)**: find when any classroom is free, from the Fireroad course API; script included.
 - **[EECS/eecseduportal/](EECS/eecseduportal/)**: userscripts for the EECS Education Portal (faculty / TA roster extraction).
 - **[EECS/exam-day.md](EECS/exam-day.md)**: printing in 38-445 and proctoring flow.
 - **[EECS/scanning-hq.md](EECS/scanning-hq.md)**: EECS HQ shared scanners + WebDAV pipeline.

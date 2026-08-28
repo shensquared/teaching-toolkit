@@ -1,6 +1,6 @@
 # Recording lectures at MIT
 
-How lectures get captured and where they land. After recording, [../LMS/panopto.md](../LMS/panopto.md) covers pulling videos out via the Panopto API.
+How lectures get captured and where they land. After recording, [../LMS/panopto.md](../LMS/panopto.md) covers pulling videos out via the Panopto API. To check when a recording-equipped room is free, see [room-availability/](room-availability/), whose script ships the room lists below as named sets.
 
 Three options, roughly in order of human touch needed:
 

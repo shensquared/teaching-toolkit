@@ -1,6 +1,6 @@
 # Reserving rooms (EECS angle)
 
-Five paths, grouped by who administers the space.
+Five paths, grouped by who administers the space. To check when a room is already booked for classes before you ask, see [../room-availability/](../room-availability/).
 
 ## 1. Registrar / Schedules Office
 
