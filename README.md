@@ -16,7 +16,7 @@ Point an AI agent at this repo and describe what you want, whether that's "show 
 Read https://github.com/shensquared/teaching-toolkit (start with the top-level README, then dive into folder READMEs as relevant). Confirm when you're ready and I'll tell you what I need next.
 ```
 
-To contribute a quick idea or tip, email `anigans@mit.edu` (*ShenAnigans*, Shen's personal AI bot). It parses incoming mail once a day and opens a PR.
+To contribute a quick idea or tip, email `anigans@mit.edu` (*ShenAnigans*, Shen's personal AI bot). It parses incoming mail once a day and opens a PR under [shensquared2](https://github.com/shensquared2).
 
 If you're not sure where a doc belongs, open the PR anyway and we'll move it if needed.
 
