@@ -52,9 +52,21 @@ free: 10-250, 35-225, 46-3002, E25-117
   ...
 ```
 
+## Capacity and AV
+
+[`classrooms.tsv`](classrooms.tsv) carries the Registrar's own listing for 161 classrooms, one row per room as `room`, `capacity`, `features`. Features are a comma-separated list covering projectors, input connections, chalkboards, seating, room shape, and which lecture-capture service the room has.
+
+The file is a snapshot, not a live feed. Its first line records the date the listing was retrieved, so check that before trusting a capacity for anything that matters. Lines beginning with `#` are comments and a parser should skip them. To refresh, copy the table from [classrooms.mit.edu](http://www.classrooms.mit.edu) and update that date.
+
+The two capture strings match the named sets the script ships. `Lecture Capture - Auto - OL (Open Learning)` marks the `openlearning` rooms and `Lecture Capture - Lightweight - IS&T` marks the `ist-lwlc` rooms, so the sets can be derived from this file rather than maintained by hand.
+
+```bash
+awk -F'\t' '$2 >= 60 && /Lightweight/ {print $1, $2}' classrooms.tsv
+```
+
 ## What this does not cover
 
-Registrar-scheduled class meetings, and nothing else. One-off reservations, seminars, exams, thesis defenses, and department events never reach Fireroad, so an empty slot here is a candidate to confirm with whoever owns the room, not a booking. The data also gives room numbers alone, with no capacity, layout, or AV inventory; [classrooms.mit.edu](http://www.classrooms.mit.edu) has those.
+Registrar-scheduled class meetings, and nothing else. One-off reservations, seminars, exams, thesis defenses, and department events never reach Fireroad, so an empty slot here is a candidate to confirm with whoever owns the room, not a booking. Fireroad gives room numbers alone, with no capacity, layout, or AV inventory. [`classrooms.tsv`](classrooms.tsv) supplies those, sourced from [classrooms.mit.edu](http://www.classrooms.mit.edu).
 
 Only the current term is available. For a past term, [Hydrant](https://github.com/sipb/hydrant) commits packaged per-term snapshots under `public/*.json` going back to Fall 2022.
 
