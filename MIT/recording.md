@@ -12,7 +12,7 @@ For a standard in-person lecture, the entry point is the **MIT Open Learning tea
 
 ## 2. Large classrooms
 
-For the big lecture halls (e.g., **10-250**), MIT operates a camera setup with human coordination. Reach out to **Elaine** to schedule.
+For the big lecture halls (e.g., **10-250**), MIT operates a camera setup with human coordination. Reach out to **Elaine** to schedule. For connecting your own laptop to the projector in that room, see [projection.md](projection.md).
 
 <!-- TODO: Elaine's last name and contact (email or phone). -->
 
