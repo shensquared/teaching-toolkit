@@ -20,4 +20,4 @@
 - **[scaling-tips.md](scaling-tips.md)**: public site models, Moira lists, Registrar Catalog updates, more. Extracted from the [scalableTeaching](https://github.com/shensquared/scalableTeaching) site.
 - **[exams.md](exams.md)**: proctoring philosophy, conflicts, DAS accommodations.
 - **[recording.md](recording.md)**: three options for getting your lectures captured: Open Learning, large classrooms, IS&T's Lightweight Lecture Capture.
-- **[projection.md](projection.md)**: laptop-to-projector settings, how small slide type can get, measured figures for 10-250.
+- **[projection.md](projection.md)**: laptop-to-projector settings, how small slide type can get, measured figures and an AV walkthrough video for 10-250.

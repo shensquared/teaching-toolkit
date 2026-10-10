@@ -51,6 +51,10 @@ In a large hall, treat `D/H = 6` as the design point and `D/H = 4` as the floor 
 
 ## 10-250
 
+Walkthrough of the room's AV system:
+
+[![10-250 AV](https://img.youtube.com/vi/Tung7T_eUWc/hqdefault.jpg)](https://youtu.be/Tung7T_eUWc)
+
 Measured from the room's Crestron receiver over HDMI:
 
 ```
